@@ -1,13 +1,9 @@
+//HTML ITEMS
 const houseInfoContainer = document.querySelector('.houseInfoContainer')
 const houseHeader = document.querySelector('.houseHeader')
 const citySelected = document.querySelector('.citySelected')
 const inputSearch = document.querySelector('.inputSearch')
-
-const citys =[{
-    'são paulo': 'sp',
-    'rio de janeiro' : 'rj'
-}]
-
+//OBJECT TO TRANSLATE ENGLISH TO PORTUGUESE
 const amenitiesTranslate  = {
     'AIR_CONDITIONING':'Ar Condicionado',
     'AMERICAN_KITCHEN':'Cozinha Americana',
@@ -46,7 +42,7 @@ const amenitiesTranslate  = {
     }
     
 } 
-
+//API VIVAREAL
 async function getAPI(estado) {
     try {
         let {nome, uf} = await getIBGEAPI(estado)
@@ -67,6 +63,7 @@ async function getAPI(estado) {
     
 }
 
+//ENTER TO GET START API VIVA REAL
 inputSearch.addEventListener('keypress', (event) => {
     if (event.key === 'Enter'){
     let estado = event.target.value
@@ -132,7 +129,6 @@ function printHouseCards (houseInfo){
 }
 
 function printError (erro){
-    console.log('entrou')
     houseInfoContainer.innerHTML = `
     <div class ="divError">
         <p class = "error">OPS!!!!</p>

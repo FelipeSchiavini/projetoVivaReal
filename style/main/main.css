@@ -112,8 +112,7 @@ aside .fieldset2 {
 }
 
 .listOptions .options:hover {
-  -webkit-box-shadow: inset 1px 1px 1px black;
-          box-shadow: inset 1px 1px 1px black;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .citySelected {
@@ -229,8 +228,7 @@ label {
 }
 
 .house-card:hover {
-  -webkit-box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .house-card .house-itens {

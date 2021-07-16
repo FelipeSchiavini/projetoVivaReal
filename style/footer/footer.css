@@ -34,6 +34,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: var(--footer-bg-color);
 }
 
@@ -41,11 +44,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: rgba(255, 255, 255, 0.7);
   width: 55%;
   font-size: .8rem;
+}
+
+.site-footer__container .site-footer__brand {
+  font-size: xx-large;
+}
+
+.about__legal {
+  color: rgba(255, 255, 255, 0.4);
 }
 /*# sourceMappingURL=footer.css.map */

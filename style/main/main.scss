@@ -83,7 +83,7 @@ aside{
         cursor: pointer;
     
     &:hover{
-        box-shadow: inset 1px 1px 1px black;
+        background-color: rgba(255,255,255,.7);
     }
     }
 }
@@ -177,7 +177,7 @@ label{
     margin-bottom: 1.5rem;
 
     &:hover{
-        box-shadow: 10px 10px 10px 5px rgba(0,0,0,.1);
+        background-color: rgba(255,255,255,.7);
     }
 
     .house-itens{
