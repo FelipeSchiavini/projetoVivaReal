@@ -1,0 +1,40 @@
+.footerContainer{
+    display: flex;
+    background-color: rgb(27, 113, 153);
+
+    .sectionFooter{
+        font-family: "Open Sans", "Helvetica";
+        width: 25%;
+        line-height: 21px;
+        font-weight: 600;
+        border-left: 1px solid rgba(0,0,0,.12);
+
+        .headFooter{
+            font-size: 0.7rem;
+            padding-top: 1.5rem;
+            color: rgba(255, 255, 255,0.5)
+        }
+
+        .itemsFooter{
+            font-size: 0.7rem;
+            padding-top: 1rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.site-footer__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--footer-bg-color);
+
+    .about__terms-policy{
+        display: flex;
+        justify-content: space-between;
+        color: rgba(255, 255, 255,0.7);
+        width: 55%;
+        font-size: .8rem;
+    }
+}

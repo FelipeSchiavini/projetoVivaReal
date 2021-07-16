@@ -1,0 +1,305 @@
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+aside {
+  width: 18%;
+  margin-right: 2rem;
+}
+
+aside .fieldset1 {
+  background-color: var(--fieldset-bg-color);
+  border: 1px solid var(--fieldset-border-color);
+  border-radius: 4px;
+}
+
+aside .fieldset2 {
+  margin-top: 2rem;
+  background-color: #fff;
+  border: 1px solid var(--border-color-house);
+  border-radius: 4px;
+}
+
+.js-virtual-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.js-virtual-input div {
+  background-color: rgba(17, 144, 205, 0.1);
+  border-radius: 26px;
+  height: 2rem;
+  width: 3.4rem;
+}
+
+.js-virtual-input div .inputCheckbox {
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 99999px;
+  background-color: #fff;
+  position: relative;
+  top: 0.3rem;
+  left: 0.2rem;
+  border: none;
+}
+
+.js-price-maxmin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.js-price-maxmin input {
+  width: 38%;
+  border: none;
+  height: 1.5rem;
+}
+
+.pcInput::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.pcInput:-ms-input-placeholder {
+  text-align: right;
+}
+
+.pcInput::-ms-input-placeholder {
+  text-align: right;
+}
+
+.pcInput::placeholder {
+  text-align: right;
+}
+
+.listOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  vertical-align: center;
+}
+
+.listOptions .options {
+  border-radius: 40%;
+  width: 1.5rem;
+  padding: 0.3rem;
+  background-color: #fff;
+  color: var(--address-color);
+  border: 1px solid var(--border-color-house);
+  cursor: pointer;
+}
+
+.listOptions .options:hover {
+  -webkit-box-shadow: inset 1px 1px 1px black;
+          box-shadow: inset 1px 1px 1px black;
+}
+
+.citySelected {
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+
+.citySelected .citySelect {
+  color: var(--principal-color);
+  border: 1px solid var(--principal-color);
+  border-radius: 8px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.inputForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+  border: none;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.54);
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-family: "Open Sans","Helvetica","Sans-Serif";
+  font-size: 0.75rem;
+}
+
+.inputSearch {
+  border: none;
+  height: 1.5rem;
+}
+
+.inputCheck {
+  border: none;
+  height: 1.5rem;
+}
+
+.container-houses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 60%;
+}
+
+.container-houses .houses-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: var(--principal-color);
+  padding-left: 0;
+  -webkit-box-shadow: inset 0 -0.4px 0 0 rgba(70, 69, 69, 0.2), 0 0.4px 0 0 rgba(70, 69, 69, 0.2);
+          box-shadow: inset 0 -0.4px 0 0 rgba(70, 69, 69, 0.2), 0 0.4px 0 0 rgba(70, 69, 69, 0.2);
+}
+
+.container-houses .houses-header li {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Open Sans","Helvetica","Sans-Serif";
+  font-size: 0.9rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container-houses .houses-header li:first-child {
+  -webkit-box-shadow: inset 0 -3px 0 0 #1190cd, 0 1px 0 0 #1190cd;
+          box-shadow: inset 0 -3px 0 0 #1190cd, 0 1px 0 0 #1190cd;
+}
+
+.container-houses .houses-header li:hover {
+  background-color: rgba(47, 105, 122, 0.14);
+}
+
+.house-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font: normal normal 100% "Open Sans","Helvetica","Sans-Serif";
+  border: 1px solid var(--border-color-house);
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.house-card:hover {
+  -webkit-box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.house-card .house-itens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  width: 50%;
+}
+
+.house-card .housePictures {
+  height: 13rem;
+  width: 20rem;
+}
+
+.house-card .house-address {
+  color: var(--address-color);
+  vertical-align: baseline;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.house-card .house-description-value {
+  font-weight: 600;
+}
+
+.house-card .house-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.house-card .house-tags .house-tags-item {
+  padding: 0.15rem .8rem 0.15rem .8rem;
+  margin-right: 0.2rem;
+  border-radius: 4px;
+  background-color: var(--tag-bg-color);
+  color: var(--address-color);
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+
+.divError {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.divError .errorRed {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
